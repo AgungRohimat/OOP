@@ -1,5 +1,6 @@
 <?php
 
+
 //Public
 //class manusia
 // class manusia{
@@ -19,10 +20,27 @@
 // echo $manusia->biodata();
 
 
+// Private
+// class manusia{
+//     //prop
+//     private $nama = "Agung";
 
+//     //method
+//     public function  tampilkan_nama(){
+//         return "Nama Saya " . $this->nama;
+//     }
+    
+// }
+// $manusia = new manusia();
+
+// echo $manusia->tampilkan_nama();
+// echo $manusia->nama;
+
+
+// Protected
 class manusia{
     //prop
-    private $nama = "Agung";
+ protected $nama = "Agung";
 
     //method
     public function  tampilkan_nama(){
