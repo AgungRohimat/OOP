@@ -87,7 +87,7 @@ class penggajihan{
     public function sisa(){
         echo "<hr>";
         echo "<b>Sisa : </b>Rp. ";
-        echo $totals = ($this->totalg - $this->totalg);
+        echo $totals = ($this->totalg - $this->totalp);
     }
 }
 
